@@ -30,8 +30,8 @@ function showSlides(n) {
 //Navigation
 
 function showMenu(){
-document.querySelector('.navigation').classList.toggle('active');
-document.querySelector('.menu.fa.fa-bars').classList.toggle('hide');
+    document.querySelector('.navigation').classList.toggle('active');
+    document.querySelector('.menu.fa.fa-bars').classList.toggle('hide');
     document.querySelector('.close.fa.fa-bars').classList.toggle('show');
 
 }
@@ -133,6 +133,25 @@ function showSolarDaten(){
     document.querySelector('.SolarDaten.fa.fa-plus').classList.toggle('hide');
     document.querySelector('.SolarDaten.fa.fa-minus').classList.toggle('show');
 }
-//Wasserspeicher
+//Pufferspeicher
+function showPufferDaten(){
+    document.querySelector('.pufferspeicher').classList.toggle('active');
+    document.querySelector('.pufferDaten.fa.fa-plus').classList.toggle('hide');
+    document.querySelector('.pufferDaten.fa.fa-minus').classList.toggle('show');
+}
 
+//Hygenespeicher
 
+function showHygeneDaten(){
+    document.querySelector('.Hygenespeicher6000').classList.toggle('active');
+    document.querySelector('.hygeneDaten.fa.fa-plus').classList.toggle('hide');
+    document.querySelector('.hygeneDaten.fa.fa-minus').classList.toggle('show');
+}
+
+//Solarflüssigkeit
+
+function showSolarflüssigkeitDaten(){
+    document.querySelector('.solarflüssigkeitDaten').classList.toggle('active');
+    document.querySelector('.Solarflüssigkeitdaten.fa.fa-plus').classList.toggle('hide');
+    document.querySelector('.Solarflüssigkeitdaten.fa.fa-minus').classList.toggle('show');
+}

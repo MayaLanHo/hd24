@@ -286,12 +286,12 @@ border-radius: 10px !important;
 
 
 .EdelWarmwasserAnleitung, .EdelWarmwasserDaten, .WarmwasserSpeicherAnleitung, .WarmwasserSpeicherDatenblatt, .SolarSpeicherAnleitung, .SolarSpeicherDaten, .AnleitungSolarNichtEdel, .DatenSolar,
-.UnterstellAnleitung, .UnterstellDaten, .WasserspeicherDaten, .SolarspeicherDaten6000{
+.UnterstellAnleitung, .UnterstellDaten, .WasserspeicherDaten, .SolarspeicherDaten6000, .pufferspeicher, .Hygenespeicher6000, .solarflüssigkeitDaten{
     display:none;
 }
 
 .EdelWarmwasserAnleitung.active, .EdelWarmwasserDaten.active, .WarmwasserSpeicherDatenblatt.active,.WarmwasserSpeicherAnleitung.active, .SolarSpeicherAnleitung.active, .SolarSpeicherDaten.active,
-.AnleitungSolarNichtEdel.active, .DatenSolar.active, .UnterstellAnleitung.active, .UnterstellDaten.active, .WasserspeicherDaten.active, .SolarspeicherDaten6000.active{
+.AnleitungSolarNichtEdel.active, .DatenSolar.active, .UnterstellAnleitung.active, .UnterstellDaten.active, .WasserspeicherDaten.active, .SolarspeicherDaten6000.active, .pufferspeicher.active, .Hygenespeicher6000.active, .solarflüssigkeitDaten.active{
     position:absolute;
     display:flex;
     background-color:white;
